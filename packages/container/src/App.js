@@ -5,9 +5,13 @@ import MarketingApp from "./components/MarketingApp";
 const App = () => {
   return (
     <div>
-      <p>Hi there!</p>
+      <div>
+        <p>Hi there!</p>
+      </div>
       <hr />
-      <MarketingApp />
+      <div>
+        <MarketingApp />
+      </div>
     </div>
   );
 };
